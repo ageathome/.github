@@ -5,7 +5,7 @@ An open-source software solution for situational awareness from a network of com
 
 + Watch the [overview](https://youtu.be/elhkldImJ7c) video, [introduction](https://youtu.be/9dW5mtVOzYo) and [installation](https://youtu.be/BWJdDWKUXyE)
 + Use the QuickStart (see below) on RaspberryPi4, Jetson Nano, or Intel/AMD host; see [guide](docs/QUICKSTART.md).
-+ Visit us on the [Web](http://www.motion-ai.com)
-+ Find us on [Facebook](https://www.facebook.com/groups/motionai/)
-+ Connect with us on [LinkedIn](https://www.linkedin.com/company/motion-%C3%A3i)
-+ Message us on [Slack](https://join.slack.com/t/motionai/shared_invite/zt-iwiwp63m-tAKNanRHHQfS~6dVfxgL4Q)
++ Visit us on the [Web](http://www.age-at-home.com)
++ Find us on [Facebook](https://www.facebook.com/groups/ageathome/)
++ Connect with us on [LinkedIn](https://www.linkedin.com/company/ageathome)
++ Message us on [Slack](https://join.slack.com/t/ageathome/shared_invite/zt-iwiwp63m-tAKNanRHHQfS~6dVfxgL4Q)
