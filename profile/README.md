@@ -4,7 +4,7 @@
 An open-source software solution for situational awareness from a network of common smart home and personal devices.  Utilizing [Home Assistant](http://home-assistant.io), [Motion-A👁](http://github.com/motion-ai), [addons](http://github.com/ageathome/addons), the LINUX Foundation [Open Horizon](http://github.com/open-horizon) edge fabric, and [edge AI services](https://github.com/dcmartin/open-horizon), the system enables _personal_ AI on low-cost devices; integrating multi-vendor sensors and actuators into a dashboard of daily activity and associated push notifications.
 
 + Watch the [overview](https://youtu.be/elhkldImJ7c) video, [introduction](https://youtu.be/9dW5mtVOzYo) and [installation](https://youtu.be/BWJdDWKUXyE)
-+ Use the [QuickStart](docs/QUICKSTART.md) on RaspberryPi4.
++ Use the [QuickStart]([docs/QUICKSTART.md](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md)) on RaspberryPi4.
 + Visit us on the [Web](http://www.age-at-home.com)
 + Find us on [Facebook](https://www.facebook.com/groups/ageathome/)
 + Connect with us on [LinkedIn](https://www.linkedin.com/company/ageathome)
