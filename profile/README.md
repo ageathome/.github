@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ageathome/core/main/docs/logo.png" width="128">
+<img src="https://github.com/ageathome/addons/blob/195ca66d80a4a12f7369ed4e31196bdd2edc0bb7/ageathome/logo.png" width="128">
 
 #  Age@Home
 An open-source software solution for situational awareness from a network of common smart home and personal devices.  Utilizing [Home Assistant](http://home-assistant.io), [Motion-A👁](http://github.com/motion-ai), [addons](http://github.com/ageathome/addons), the LINUX Foundation [Open Horizon](http://github.com/open-horizon) edge fabric, and [edge AI services](https://github.com/dcmartin/open-horizon), the system enables _personal_ AI on low-cost devices; integrating multi-vendor sensors and actuators into a dashboard of daily activity and associated push notifications.
