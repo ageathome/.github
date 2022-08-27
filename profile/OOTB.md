@@ -4,14 +4,15 @@
 
 1) The hub with RaspberryPi4 inside
 2) A micro-SD (uSD) card with the most recent Home-Assistant “operating system” for the Pi4.
-3) A US-120V power-adapter with a USC-C outlet and a USB-C cord (silver)
-4) A Ethernet cable (white)
-5) A USB-A to micro-USB cable to charge the motion detectors
-6) 2 Shelly motion detectors; new in the box
-7) 1 Shelly H&T sensor; new in the box
-8) 1 Shelly Flood sensor; new
-9) 3 Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
-10) Two set (4 total) Command(tm) adhesive strips for motion sensors
+3) A US-120V power-adapter with a USC-C outlet
+4) A USB-C to USB-C cord (silver)
+5) A Ethernet cable (white)
+6) A USB-A to micro-USB cable to charge the motion detectors
+7) 2x Shelly motion detectors
+8) A Shelly H&T sensor
+9) A Shelly Flood sensor
+10) 3x Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
+11) 2x set (4 total) Command(tm) adhesive strips for motion sensors
 
 ## Setup hub
 
