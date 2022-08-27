@@ -4,15 +4,15 @@
 
 1) The hub with RaspberryPi4 inside
 2) A micro-SD (uSD) card with the most recent Home-Assistant “operating system” for the Pi4.
-3) A US-120V power-adapter with a USC-C outlet
+3) A USB-C power-adapter (US:120V)
 4) A USB-C to USB-C cord (silver)
 5) A Ethernet cable (white)
-6) A USB-A to micro-USB cable to charge the motion detectors
+6) A USB to micro-USB cable to charge the motion detectors
 7) 2x Shelly motion detectors
 8) A Shelly H&T sensor
 9) A Shelly Flood sensor
 10) 3x Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
-11) 2x set (4 total) Command(tm) adhesive strips for motion sensors
+11) 2x pair (4 total) Command(tm) adhesive strips for motion sensors
 
 ## Setup hub
 
@@ -43,7 +43,7 @@ The Owner account should be customized to enable “Advanced Mode” — this mo
 
 The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.
 
-The USB-A to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
+The USB to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
 
 The Shelly Flood and H&T sensors require batteries (included); refer to the device documentation, but the flood sensor opens with a slight counter-clockwise turn between the top and bottom; it is similar for the H&T sensor.  Both sensors have small buttons to enable, for example if the sensor goes to sleep.
 
@@ -53,8 +53,7 @@ All Shelly sensors are “included” to the Wifi network using the Shelly app o
 
 # Installation
 
-The Age@Home software is packaged as a Home-Assistant add-on; these add-ons are provided through an Add-on Store that Is accessed through the Settings panel item on the left near the bottom.
-
+The Age@Home software is packaged as a Home-Assistant add-on; these add-ons are provided through an Add-on Store that is accessed through the Settings panel item on the left.
 
 ## Hub
 
