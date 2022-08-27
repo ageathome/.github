@@ -13,7 +13,7 @@
 9) 3 Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
 10) Two set (4 total) Command(tm) adhesive strips for motion sensors
 
-### Setup hub
+## Setup hub
 
 1. Remove hub from box and remove wrapping; there is a plastic sleeve with a SD-to-uSD converter card with uSD card inside
 2. Remove uSD card from converter/carrier and insert into slot on front of hub; refer to documentation for enclosure inside box for uSD card placement
@@ -38,7 +38,7 @@ Once these steps are complete you should be able to access the basic installatio
 
 The Owner account should be customized to enable “Advanced Mode” — this mode enables specifying automatics updates; customizations are accessed through the last panel item which should be the Owner name (e.g. “Karen Martin” with default icon of “KM”).
 
-### Setup sensors
+## Setup sensors
 
 The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.
 
@@ -50,12 +50,12 @@ The spare battery may be required for the H&T sensor which appears to draw more 
 
 All Shelly sensors are “included” to the Wifi network using the Shelly app on your smartphone.  Refer to the Shelly documentation.
 
-## Installation
+# Installation
 
 The Age@Home software is packaged as a Home-Assistant add-on; these add-ons are provided through an Add-on Store that Is accessed through the Settings panel item on the left near the bottom.
 
 
-### Hub
+## Hub
 
 Refer to the [QUICKSTART.md](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md)
 
@@ -80,7 +80,7 @@ After the system has restarted you will be able to use smartphone app with the O
 Setup will have identified missing sensors and provide appropriate local notifications.
 
 
-### Sensors
+## Sensors
 
 Once the four sensors (2x motion, 1 H&T, 1 flood) have been added to the WiFi network using the Shelly smartphone app those sensors may then be added to Age@Home.
 
