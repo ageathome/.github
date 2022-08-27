@@ -9,3 +9,16 @@ An open-source software solution for situational awareness from a network of com
 + Find us on [Facebook](https://www.facebook.com/groups/ageathome/)
 + Connect with us on [LinkedIn](https://www.linkedin.com/company/ageathome)
 + Message us on [Slack](https://join.slack.com/t/ageathome/shared_invite/zt-iwiwp63m-tAKNanRHHQfS~6dVfxgL4Q)
+
+##  
+
+![](https://img.shields.io/github/license/ageathome/core.svg?style=flat)
+![](https://img.shields.io/github/release-date/ageathome/core.svg?style=flat)
+![](https://img.shields.io/github/release/ageathome/core.svg?style=flat)
+![](https://img.shields.io/github/repo-size/ageathome/core.svg?style=flat)
+![](https://img.shields.io/github/last-commit/ageathome/core.svg?style=flat)
+![](https://img.shields.io/github/commit-activity/w/ageathome/core.svg?style=flat)
+
+![](https://img.shields.io/badge/amd64-yes-green.svg)[![](https://images.microbadger.com/badges/image/dcmartin/amd64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/amd64-addon-ageathome)[![](https://images.microbadger.com/badges/version/dcmartin/amd64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/amd64-addon-ageathome)[![](https://img.shields.io/docker/pulls/dcmartin/amd64-addon-ageathome.svg)](https://hub.docker.com/r/dcmartin/amd64-addon-ageathome)
+![](https://img.shields.io/badge/aarch64-yes-green.svg)[![](https://images.microbadger.com/badges/image/dcmartin/aarch64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/aarch64-addon-ageathome)[![](https://images.microbadger.com/badges/version/dcmartin/aarch64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/aarch64-addon-ageathome)[![](https://img.shields.io/docker/pulls/dcmartin/aarch64-addon-ageathome.svg)](https://hub.docker.com/r/dcmartin/aarch64-addon-ageathome)
+![](https://img.shields.io/badge/armv7-yes-green.svg)[![](https://images.microbadger.com/badges/image/dcmartin/armv7-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/armv7-addon-ageathome)[![](https://images.microbadger.com/badges/version/dcmartin/armv7-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/armv7-addon-ageathome)[![](https://img.shields.io/docker/pulls/dcmartin/armv7-addon-ageathome.svg)](https://hub.docker.com/r/dcmartin/armv7-addon-ageathome)
