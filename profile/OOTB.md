@@ -29,7 +29,7 @@ Wait for approximately 20 minutes and then launch Home Assistant app on your sma
 
 If you have previously installed the app, select the orange gear in the lower right corner when the app starts; then select the Debug option at the end and select Reset.
 
-When the app starts (or has been reset), it will search the network for the hub; by default the hub is named “homeassistant” on the local network, e.g. “http://homeassistant.local:8123/“ is the default Web address (n.b. 8123 is the port number).
+When the app starts (or has been reset), it will search the network for the hub; by default the hub is named “homeassistant” on the local network, e.g. [http://homeassistant.local:8123/](http://homeassistant.local:8123/) is the default Web address (n.b. 8123 is the port number).
 
 After the app has scanned the network and found your local hub you will be able to configure the app to access the smartphone information as well as enable notifications and then create the Owner account (i.e. “independent adult”) by providing a name (e.g. “Karen Martin”) and then a password if the automated default login name is acceptable.
 
