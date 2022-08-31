@@ -6,6 +6,7 @@ An open-source software solution for situational awareness from a network of com
 + Watch the [overview](https://youtu.be/SnUtSBRRR7A) video
 + Use the [QuickStart](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md) on RaspberryPi4.
 + Visit us on the [Web](http://www.age-at-home.com)
++ [Out-of-the-box](https://github.com/ageathome/.github/blob/main/profile/OOTB.md)
 + Find us on [Facebook](https://www.facebook.com/groups/ageathome/)
 + Connect with us on [LinkedIn](https://www.linkedin.com/company/ageathome)
 + Message us on [Slack](https://join.slack.com/t/ageathome/shared_invite/zt-iwiwp63m-tAKNanRHHQfS~6dVfxgL4Q)
