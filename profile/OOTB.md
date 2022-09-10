@@ -89,17 +89,21 @@ After the app has scanned the network and found your local hub you will be able 
 
 Once these steps are complete you should be able to access the basic installation of Home-Assistant on the local network using the Owner account, i.e login name and password.
 
+<img src="docs/home-assistant-done.png" width="50%">
+
 The Owner account should be customized to enable “Advanced Mode” — this mode enables specifying automatics updates; customizations are accessed through the last panel item which should be the Owner name (e.g. “David Martin” with default icon of “DM”).
 
 ## 4. Install Age@Home
 
 The Age@Home software is packaged as Docker container available through the Home-Assistant [Add-on Store](http://homeassistant.local/hassio/store); please refer to [quick start instructions](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md)
 
-<img src="" width="75%">
+<img src="docs/ageathome-initial.png" width="50%">
+
+When the installation is complete the system will reboot and appear similar to the image above.
 
 ## 5. Integrate Sensors
 
-Once the sensors have been added to network they may then be [integrated](http://homeassistant.local:8123/config/integrations) into Home-Assistant and made available to Age@Home in the following device classes:
+After sensors have been added to network they may then be [integrated](http://homeassistant.local:8123/config/integrations) into Home-Assistant and made available to Age@Home in the following device classes:
 
 <table width="90%">
 <tr>
@@ -143,6 +147,8 @@ Once the sensors have been added to network they may then be [integrated](http:/
 <td>voltage</td>
 </tr>
 </table>
+
+### Shelly specific
 
 Select the Settings panel item and then Devices & Services from the available settings.  Select the discovered Shelly sensors or select the Add Integration button and then enter “Shelly” which should display any discovered Shelly sensors.
 
