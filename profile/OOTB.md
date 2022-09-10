@@ -2,17 +2,31 @@
 
 ## Inventory
 
-1) The hub with RaspberryPi4 inside
-2) A micro-SD (uSD) card with the most recent Home-Assistant “operating system” for the Pi4.
-3) A USB-C power-adapter (US:120V)
-4) A USB-C to USB-C cord (silver)
-5) A Ethernet cable (white)
-6) A USB to micro-USB cable to charge the motion detectors
-7) 2x Shelly motion detectors
-8) A Shelly H&T sensor
-9) A Shelly Flood sensor
-10) 3x Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
-11) 2x pair (4 total) Command(tm) adhesive strips for motion sensors
+1) The hub with RaspberryPi4 and micro-SD (uSD) card inserted
+2) One (1) USB-C power-adapter (USA 120V)
+4) One (1) USB-C to USB-C cord 
+5) One (1) 10ft Ethernet cable 
+6) One (1) USB to micro-USB cable to charge the motion detectors
+7) Two (2) Shelly motion detectors
+8) One (1) Shelly humditity and temperature sensor
+9) One (1) Shelly moisture sensor
+10) One (1) Shelly gas sensor
+11) Three (3) Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
+12) Two (2) pair (4 total) Command(tm) adhesive strips for motion sensors
+
+## Setup sensors
+
+**Download the Shelly app** for Apple [iOS](https://apps.apple.com/us/app/shelly-cloud) or Google [Android](https://play.google.com/store/apps/details?id=allterco.bg.shelly).
+
+The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.  The USB to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
+
+The Shelly Flood and H&T sensors require batteries (included); refer to the device documentation, but the flood sensor opens with a slight counter-clockwise turn between the top and bottom; it is similar for the H&T sensor.  Both sensors have small buttons to enable, for example if the sensor goes to sleep.
+
+The spare battery may be required for the H&T sensor which appears to draw more energy than anticipated (or documented).
+
+All Shelly sensors are “included” to the Wifi network using the Shelly app on your smartphone.  Refer to the Shelly documentation.
+
+Included devices may be accessed in the Shelly app through the 
 
 ## Setup hub
 
@@ -38,18 +52,6 @@ Refer to the [HOMEASSISTANT.md](https://github.com/ageathome/core/blob/main/docs
 Once these steps are complete you should be able to access the basic installation of Home-Assistant on the local network using the Owner account, i.e login name and password.
 
 The Owner account should be customized to enable “Advanced Mode” — this mode enables specifying automatics updates; customizations are accessed through the last panel item which should be the Owner name (e.g. “Karen Martin” with default icon of “KM”).
-
-## Setup sensors
-
-The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.
-
-The USB to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
-
-The Shelly Flood and H&T sensors require batteries (included); refer to the device documentation, but the flood sensor opens with a slight counter-clockwise turn between the top and bottom; it is similar for the H&T sensor.  Both sensors have small buttons to enable, for example if the sensor goes to sleep.
-
-The spare battery may be required for the H&T sensor which appears to draw more energy than anticipated (or documented).
-
-All Shelly sensors are “included” to the Wifi network using the Shelly app on your smartphone.  Refer to the Shelly documentation.
 
 # Installation
 
