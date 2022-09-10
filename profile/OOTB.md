@@ -1,37 +1,56 @@
 # Out of the box
 
 ## Inventory
+The box contains the following items:
 
-1) The hub with RaspberryPi4 and micro-SD (uSD) card inserted
-2) One (1) USB-C power-adapter (USA 120V)
-4) One (1) USB-C to USB-C cord 
-5) One (1) 10ft Ethernet cable 
-6) One (1) USB to micro-USB cable to charge the motion detectors
-7) Two (2) Shelly motion detectors
-8) One (1) Shelly humditity and temperature sensor
-9) One (1) Shelly moisture sensor
-10) One (1) Shelly gas sensor
-11) Three (3) Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
-12) Two (2) pair (4 total) Command(tm) adhesive strips for motion sensors
++ The hub with RaspberryPi4 and micro-SD (uSD) card inserted
++ One (1) USB-C power-adapter (USA 120V)
++ One (1) USB-C to USB-C cord 
++ One (1) 10ft Ethernet cable 
++ One (1) USB to micro-USB cable to charge the motion detectors
++ Two (2) Shelly [motion detectors](https://shelly.cloud/shelly-motion-smart-home-automation-sensor/)
++ One (1) Shelly [humditity and temperature (H&T)](https://shelly.cloud/products/shelly-humidity-temperature-smart-home-automation-sensor/) sensor
++ One (1) Shelly [moisture](https://shelly.cloud/products/shelly-flood-smart-home-automation-sensor/) sensor
++ One (1) Shelly [gas](https://shelly.cloud/products/shelly-gas-smart-home-automation-sensor/) sensor
++ Three (3) Lithium-Ion batteries; 1 for H&T, 1 for Flood; 1 spare
++ Two (2) pair (4 total) Command(tm) adhesive strips for motion sensors
 
-## Setup sensors
+# Installation
+There are seven (5) steps:
 
-**Download the Shelly app** for Apple [iOS](https://apps.apple.com/us/app/shelly-cloud) or Google [Android](https://play.google.com/store/apps/details?id=allterco.bg.shelly).
+1. Setup sensors
+2. Setup hub
+3. Install smartphone app
+4. Install Age@Home
+5. Integrate sensors
 
-The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.  The USB to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
+
+## 1. Setup sensors
+
+**Install the [Shelly](http://shelly.cloud) app** for Apple [iOS](https://apps.apple.com/us/app/shelly-cloud) or Google [Android](https://play.google.com/store/apps/details?id=allterco.bg.shelly).
+
+**Note**: The Shelly Motion sensors may require charging before they can be added to the Wifi network, etc.  The USB to micro-USB cable provided may be plugged into any standard charger for smartphone, .. or may be plugged into the rear of the hub.  USB ports closest to the Ethernet port are USB-3 and should have power.
 
 The Shelly Flood and H&T sensors require batteries (included); refer to the device documentation, but the flood sensor opens with a slight counter-clockwise turn between the top and bottom; it is similar for the H&T sensor.  Both sensors have small buttons to enable, for example if the sensor goes to sleep.
+
+<table width="90%">
+<tr><th>H&T</th><th>Flood</th></tr>
+<tr><td><img src="docs/shelly-handt-battery.png"></td>
+<td><img src="docs/shelly-flood-battery.png"></td></tr>
+</table>
 
 The spare battery may be required for the H&T sensor which appears to draw more energy than anticipated (or documented).
 
 All Shelly sensors are “included” to the Wifi network using the Shelly app on your smartphone.  Refer to the Shelly documentation.
 
-Included devices may be accessed in the Shelly app through the 
+<table width="90%">
+<tr><th>Settings</th><th>Hidden</th></tr>
+<tr><td><img src="docs/shelly-settings.png"></td><td><img src="docs/shelly-hidden.png"></td></tr>
+</table>
 
-## Setup hub
+## 2. Setup Hub
 
-1. Remove hub from box and remove wrapping; there is a plastic sleeve with a SD-to-uSD converter card with uSD card inside
-2. Remove uSD card from converter/carrier and insert into slot on front of hub; refer to documentation for enclosure inside box for uSD card placement
+1. Remove hub from box and remove wrapping
 3. Remove power-supply from box and remove wrapping; insert one end of USB-C cable into power-supply
 4. Insert Ethernet cable into rear of hub
 5. Insert other end of ethernet cable into switch or router.
@@ -39,52 +58,91 @@ Included devices may be accessed in the Shelly app through the
 7. Plug other end of USB-C cable into rear of enclosure
 8. Press hub power-on button on rear of enclosure
 
-Wait for approximately 20 minutes and then launch Home Assistant app on your smartphone.
+Wait for approximately 20 minutes until the system is ready (see below).  The [hub](http://homeassistant.local:8123/) displays a waiting page until it has completed download and setup of all the Home Assistant components. Refer to the [installation guide](https://github.com/ageathome/core/blob/main/docs/HOMEASSISTANT.md).
 
-If you have previously installed the app, select the orange gear in the lower right corner when the app starts; then select the Debug option at the end and select Reset.
+<table width="90%">
+<tr><th>Waiting</th><th>Ready</th></tr>
+<tr><td><img src="https://github.com/ageathome/core/raw/main/docs/preparing-ha.png"></td><td><img src="https://github.com/ageathome/core/raw/main/docs/onboarding.png"></td></tr>
+</table>
+
+## 3. Install Home-Assistant app
+
+**Install the [Home Assistant](http://home-assistant.io) app** for Apple [iOS](https://apps.apple.com/us/app/home-assistant) or Google [Android](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android).
+
+Launch the Home Assistant app on your smartphone; wait for the system to scan for the hub. Manual configuration may be specified as [http://homeassistant.local:8123/](http://homeassistant.local:8123).
+
+<table width="90%">
+<tr><th>Welcome</th><th>Scanning</th><th>Manual</th></tr>
+<tr>
+<td><img src="docs/welcome-to-home-assistant.png"></td>
+<td><img src="docs/scanning-for-servers.png"></td>
+<td><img src="docs/enter-url.png"></td>
+</tr>
+</table>
+
+**Note**: If you have previously installed the smartphone app, select the orange gear in the lower right corner when the app starts; then select the Debug option at the end and select Reset.
 
 When the app starts (or has been reset), it will search the network for the hub; by default the hub is named “homeassistant” on the local network, e.g. [http://homeassistant.local:8123/](http://homeassistant.local:8123/) is the default Web address (n.b. 8123 is the port number).
 
-After the app has scanned the network and found your local hub you will be able to configure the app to access the smartphone information as well as enable notifications and then create the Owner account (i.e. “independent adult”) by providing a name (e.g. “Karen Martin”) and then a password if the automated default login name is acceptable.
+After the app has scanned the network and found your local hub you will be able to configure the app to access the smartphone information as well as enable notifications and then create the Owner account (i.e. “independent adult”) by providing a name (e.g. “David Martin”) and then a password if the automated default login name is acceptable.
 
-Refer to the [HOMEASSISTANT.md](https://github.com/ageathome/core/blob/main/docs/HOMEASSISTANT.md) guide.
 
 Once these steps are complete you should be able to access the basic installation of Home-Assistant on the local network using the Owner account, i.e login name and password.
 
-The Owner account should be customized to enable “Advanced Mode” — this mode enables specifying automatics updates; customizations are accessed through the last panel item which should be the Owner name (e.g. “Karen Martin” with default icon of “KM”).
+The Owner account should be customized to enable “Advanced Mode” — this mode enables specifying automatics updates; customizations are accessed through the last panel item which should be the Owner name (e.g. “David Martin” with default icon of “DM”).
 
-# Installation
+## 4. Install Age@Home
 
-The Age@Home software is packaged as a Home-Assistant add-on; these add-ons are provided through an Add-on Store that is accessed through the Settings panel item on the left.
+The Age@Home software is packaged as Docker container available through the Home-Assistant [Add-on Store](http://homeassistant.local/hassio/store); please refer to [quick start instructions](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md)
 
-## Hub
+<img src="" width="75%">
 
-Refer to the [QUICKSTART.md](https://github.com/ageathome/core/blob/main/docs/QUICKSTART.md)
+## 5. Integrate Sensors
 
-The Settings view lists multiple items; select the Add-ons item which will lead to a page listing all installed add-ons.
+Once the sensors have been added to network they may then be [integrated](http://homeassistant.local:8123/config/integrations) into Home-Assistant and made available to Age@Home in the following device classes:
 
-If no add-ons are installed a link to the Add-on Store is provided at the top-left; alternatively the store may be accessed through the button in the lower-right.
-
-The add-ons listed in the store are cataloged by software repositories on the Internet; the Age@Home repository is located at “http://github.com/ageathome/addons” and contains a single entry for the Age@Home add-on.
-
-NOTE: After adding the repository the browser session requires a refresh, which may require a re-login to the Owner account.
-
-The add-on should then be installed by selecting the add-on in the Settings:Addons listing.  This will display the add-on, indicating operational status and four options.  The option for automatic updates is shown only if “Advanced Mode” has been enabled for the Owner.
-
-Start on boot, Watchdog, and Automatic updates should be enabled; the add-on panel item may be enabled, but currently provides very limited functionality for testing.
-
-Configuration options not required, but will probably be required at some point (e.g. external system monitoring).
-
-Start the add-on; the system will reboot oncel download and setup of the Age@Home software is completed; expect 30-60 minutes depending on Internet connection.
-
-After the system has restarted you will be able to use smartphone app with the Owner user name and password.
-
-Setup will have identified missing sensors and provide appropriate local notifications.
-
-
-## Sensors
-
-Once the four sensors (2x motion, 1 H&T, 1 flood) have been added to the WiFi network using the Shelly smartphone app those sensors may then be added to Age@Home.
+<table width="90%">
+<tr>
+<td>battery</td>
+<td>connectivity</td>
+<td>current</td>
+</tr>
+<tr>
+<td>door</td>
+<td>energy</td>
+<td>gas</td>
+</tr>
+<tr>
+<td>humidity</td>
+<td>illuminance</td>
+<td>light</td>
+</tr>
+<tr>
+<td>moisture</td>
+<td>motion</td>
+<td>occupancy</td>
+</tr>
+<tr>
+<td>opening</td>
+<td>plug</td>
+<td>power</td>
+</tr>
+<tr>
+<td>presence</td>
+<td>problem</td>
+<td>safety</td>
+</tr>
+<tr>
+<td>smoke</td>
+<td>tamper</td>
+<td>temperature</td>
+</tr>
+<tr>
+<td>update</td>
+<td>vibration</td>
+<td>voltage</td>
+</tr>
+</table>
 
 Select the Settings panel item and then Devices & Services from the available settings.  Select the discovered Shelly sensors or select the Add Integration button and then enter “Shelly” which should display any discovered Shelly sensors.
 
